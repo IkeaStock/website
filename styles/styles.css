@@ -1,0 +1,30 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+header {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#backgroundGradient {
+  background: hsl(333deg, 100%, 53%);
+  background: linear-gradient(180deg, hsl(333deg, 100%, 53%) 10%, hsl(33deg, 94%, 57%) 100%);
+  background: linear-gradient(180deg, hsl(333deg, 100%, 53%) 10%, hsl(33deg, 94%, 57%) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}/*# sourceMappingURL=styles.css.map */
