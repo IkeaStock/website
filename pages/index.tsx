@@ -1,5 +1,7 @@
 function HomePage() {
-  return <div>HomePage</div>
+  return (
+    <h1>Ikea Stock</h1>
+  )
 }
   
   export default HomePage
