@@ -1,4 +1,4 @@
-#backgroundGradient {
+header {
     background: hsla(333, 100%, 53%, 1);
     background: linear-gradient(180deg, hsla(333, 100%, 53%, 1) 10%, hsla(33, 94%, 57%, 1) 100%);
     background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 10%, hsla(33, 94%, 57%, 1) 100%);
@@ -10,4 +10,5 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    color: #fff;
 }

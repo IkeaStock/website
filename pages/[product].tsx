@@ -14,10 +14,12 @@ export default function product() {
     </Layout>
   )
   return (
-    <Layout title="Product Lookup">
+    <Layout title="Product Lookup" headerContent={(
+      <>
       <h1>Product ID: {product}</h1>
-
       <Table data={data} />
+      </>
+    )}>
     </Layout>
   )
 }
