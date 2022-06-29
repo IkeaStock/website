@@ -1,6 +1,6 @@
 export function Layout(props) {
   return (
-    <div className="layout" id="backgroundGradient">
+    <div className="layout">
       <Header title={props.title}/>
       <main>{props.children}</main>
       <Footer />
