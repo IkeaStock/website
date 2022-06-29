@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -30,8 +29,6 @@ li {
   justify-items: center;
   margin-left: auto;
   margin-right: auto;
-  list-style: none;
-  list-style-position: inside;
 }
 
 header {
@@ -49,5 +46,4 @@ header {
   color: black;
   padding: 5px 0;
   border: 1px 1px 1px 1px solid #000;
-  font-family: "Oswald", sans-serif;
 }/*# sourceMappingURL=styles.css.map */
