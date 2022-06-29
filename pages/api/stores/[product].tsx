@@ -7,7 +7,6 @@ export default async function handler(req, res) {
       const buCode = val.buCode
       const data = await ikea.availability(buCode, product);
       dataArr.push(data)
-      console.log(data)
     }
     res.status(200).send(dataArr)
 }
