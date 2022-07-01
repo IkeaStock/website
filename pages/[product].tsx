@@ -5,8 +5,12 @@ import Table from '../components/table'
 const fetcher = (...args: Parameters<typeof fetch>) => fetch(...args).then((res) => res.json())
 export default function product() {
   const router = useRouter()
-  const { product, country } = router.query
-  const { data, error } = useSWR(`/api/stores/${product}?country=${country}`, fetcher)
+  var debug: any = router.query.debug
+  var { product, country } = router.query
+  if (debug == undefined) {
+    debug = false
+  }
+  const { data, error } = useSWR(`/api/stores/${product}?country=${country}&debug=${debug}`, fetcher)
   if (error) return <div>Failed to load</div>
   if (!data) return (
     <Layout title="Loading">
