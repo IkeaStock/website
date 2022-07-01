@@ -4,6 +4,7 @@ import useSWR from 'swr'
 import Table from '../components/table'
 const fetcher = (...args: Parameters<typeof fetch>) => fetch(...args).then((res) => res.json())
 export default function product() {
+  try {
   const router = useRouter()
   var debug: any = router.query.debug
   var { product, country } = router.query
@@ -11,7 +12,12 @@ export default function product() {
     debug = false
   }
   const { data, error } = useSWR(`/api/stores/${product}?country=${country}&debug=${debug}`, fetcher)
-  if (error) return <div>Failed to load</div>
+  if (error) return (
+  <div>
+   <h1>Error:</h1>
+    <p>{error.message}</p>
+  </div>
+  )
   if (!data) return (
     <Layout title="Loading">
       <p>Loading...</p>
@@ -26,4 +32,15 @@ export default function product() {
     )}>
     </Layout>
   )
+  } catch (error) {
+    return (
+      <Layout title="Error">
+        <p>
+          Technical Difficulties
+          <br />
+          Probably something to do with the api, please try again later.
+        </p>
+      </Layout>
+    )
+  }
 }

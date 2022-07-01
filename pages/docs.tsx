@@ -1,4 +1,5 @@
 import { Layout } from "../components/layout";
+import { apiDocsENV } from "../lib/apiDocsENV";
 function HomePage() {
     const arr = [{
         name: "Stores",
@@ -7,7 +8,7 @@ function HomePage() {
         type: "GET",
     }]
     return (
-        <Layout title="Home" headerContent={(
+        <Layout title="Api Docs" headerContent={(
         <>
         <h1>API Documentation!</h1>
         <p>
