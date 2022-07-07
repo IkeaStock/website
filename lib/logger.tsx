@@ -1,6 +1,6 @@
 class logger {
-    public debug(message: any, debugEnabled: boolean): void {
-        if (debugEnabled) {
+    public debug(message: any, debugEnabled: string): void {
+        if (debugEnabled == "true") {
             console.log(message);
             return
         } else return

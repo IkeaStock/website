@@ -8,6 +8,7 @@ function StockTable({data}) {
                 <StockCircle data={val} />
                 <td>{val.store.name}</td>
                 <td>{val.stock}</td>
+                <td>{val.store.buCode}</td>
             </tr>
         ))}
         </>
@@ -21,6 +22,7 @@ export default function Table({data}) {
                         <th>Indicator</th>
                         <th>Store</th>
                         <th>Amount</th>
+                        <th>Store BuCode</th>
                 </tr>
             </thead>
             <tbody className={styles.tbody}>

@@ -19,6 +19,7 @@ export default async function handler(req, res) {
         stock: val.availableStocks.quantity,
           store: {
             name: val.store.name,
+            buCode: val.store.buCode,
           }
         }
         logger.debug(data , debug)
