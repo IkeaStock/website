@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-"@ikeastock/api@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@ikeastock/api/-/api-1.1.0.tgz#d7fe311a039e0b24bf579a433d4aea0dfa6fde7d"
-  integrity sha512-QjMFwpcyf4+B2cIK/njn0H1D1fgzBaFjkaj1oVNX7mpUUwNEWgtJAlIjbsV0p7FLkYiQPBiSVBZlaEqwpYc9uQ==
+"@ikeastock/api@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@ikeastock/api/-/api-1.2.0.tgz#f05bfef772e1e1192a8289d11cbb8eb233a0d60b"
+  integrity sha512-bhU0DKRYhfXqHCO1Rp3xiByE0TLMQPFsv1g5FxCIRBiYSduW7kwuc707AQfaHaDwoKadShR/C34Qme2eukryQQ==
   dependencies:
+    "@sapphire/shapeshift" "^3.4.1"
     node-fetch "^2.x"
 
 "@next/env@12.1.6":
@@ -73,6 +74,11 @@
   version "12.1.6"
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.1.6.tgz#a350caf42975e7197b24b495b8d764eec7e6a36e"
   integrity sha512-4ZEwiRuZEicXhXqmhw3+de8Z4EpOLQj/gp+D9fFWo6ii6W1kBkNNvvEx4A90ugppu+74pT1lIJnOuz3A9oQeJA==
+
+"@sapphire/shapeshift@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-3.4.1.tgz#68901b77c7903e404d8706b2227173fd8aae7568"
+  integrity sha512-OSR/yVE6butSlp/yvKntcg92k8IIDeTccfz1fw69lTZN02+JJ2GyKnA3Z1CLYelWc8Dh/yqO/iGTo9ypxFcAcg==
 
 "@types/node@18.0.0":
   version "18.0.0"
