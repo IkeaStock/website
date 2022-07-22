@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ikeastock/analytics@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@ikeastock/analytics/-/analytics-1.3.0.tgz#6336a08fc831e433dbedc0829cb06116c0dc379e"
-  integrity sha512-agzZkw2ZV7fbj/RD28205A1l7EV426JbSqnKEIeJFJO5wHGkPqqr3iaTOVBx90lT6tXBXs9HVqdFbOhc55rgXA==
+"@ikeastock/analytics@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@ikeastock/analytics/-/analytics-1.3.1.tgz#fd882169a454cafff7bd673b14149572a644c9ad"
+  integrity sha512-69wwHhSGTseFcamj9DZkr02oe0+eoU3E0WS24CLtOm51bnltOQ1kkdRCtfs67iUT/++e8Le/+Kb94EJbjiq9DQ==
   dependencies:
     ioredis "^5.2.0"
 
