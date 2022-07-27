@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "src": "/arc-sw.js",
+            "dest": "https://arc.io/arc-sw.js",
+            "headers": {
+                "Cache-Control": "public, max-age=31536000",
+                "Content-Type": "application/javascript"
+            }
+        }
+    ]
+}
