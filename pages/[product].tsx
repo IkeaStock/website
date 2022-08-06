@@ -2,12 +2,12 @@ import { useRouter } from 'next/router'
 import { Layout } from '../components/layout'
 import useSWR from 'swr'
 import Table from '../components/table'
-import analytics from '../lib/analytics'
+//import analytics from '../lib/analytics'
 const fetcher = (...args: Parameters<typeof fetch>) => fetch(...args).then((res) => res.json())
-export async function getServerSideProps() {
-  await analytics.update("ProductPageVisited")
-  return { props: {} }
-}
+//export async function getServerSideProps() {
+//  await analytics.update("ProductPageVisited")
+//  return { props: {} }
+//}
 export default function product() {
   try {
   const router = useRouter()
