@@ -22,7 +22,7 @@ function Footer() {
     const year = d.getFullYear();
     return (
     <footer>
-      <p>&copy; {year} Ikea Stock &amp; Its contributors</p>
+      <p>&copy; {year} IKEA Stock &amp; It's Contributors</p>
     </footer>
   );
 }
