@@ -12,7 +12,7 @@ export function Layout(props) {
 function Header(props) {
   return (
     <header>
-      <h1>{props.title} | Ikea Stock</h1>
+      <h1>{props.title} | IKEA Stock</h1>
       <div id="header-content">{props.headerContent}</div>
     </header>
   );
