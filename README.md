@@ -1,3 +1,3 @@
-# IkeaStock
+# ikeastock.xyz
 
-The main website
+The website for IKEA Stock.
