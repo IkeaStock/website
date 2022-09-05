@@ -1,5 +1,4 @@
 import { IkeaApi } from "@ikeastock/api";
-import analytics from "../../../lib/analytics";
 import { apiDocsENV } from "../../../lib/apiDocsENV";
 const ikea = new IkeaApi();
 export default async function handler(req, res) {
@@ -24,10 +23,8 @@ export default async function handler(req, res) {
         dataArr.push(data)
       }
     })
-    analytics.update("ApiUses");
     res.status(200).send(dataArr)
   } else {
-    await analytics.update("APIDisabled")
     res.status(403).send({
       message: "API is disabled",
     })
