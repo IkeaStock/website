@@ -13,15 +13,15 @@ function HomePage() {
       <>
       <h1>Ikea Stock</h1>
       <form onSubmit={handleSubmit}>
-      <label htmlFor="product">What is the product id? (found on ikea's website): </label>
+      <label htmlFor="product">What is the Product ID? (Found on IKEA's Website): </label>
       <input id="product" type="text" placeholder="here pls!" width="auto"/>
       <br />
-      <label htmlFor="country">What is the country you are looking at? (see list below):</label>
+      <label htmlFor="country">What is the country you are looking at? (See the list below):</label>
       <input id="country" type="text" placeholder="here pls!" width="auto"/>
       <br />
       <button type="submit">Search</button>
     </form>
-    <b>Any issues? open an issue <a href="https://github.com/IkeaStock/IkeaStock/issues">Here!</a></b>
+    <b>Found a bug? Open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a></b>
     </>
     )}>
       <ul>
