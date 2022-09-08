@@ -36,9 +36,9 @@ export default function product() {
     return (
       <Layout title="Error">
         <p>
-          Technical Difficulties
+          Technical Difficulties!
           <br />
-          Probably something to do with the api, please try again later.
+          Probably something to do with the API, please try again later.
         </p>
       </Layout>
     )
