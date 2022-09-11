@@ -1,3 +1,3 @@
 # ikeastock.xyz
 
-The website for IKEA Stock.
+The website for IKEA Stock. https://ikeastock.xyz.
