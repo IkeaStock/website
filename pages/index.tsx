@@ -16,12 +16,12 @@ function HomePage() {
       <label htmlFor="product">What is the Product ID? (Found on IKEA's Website): </label>
       <input id="product" type="text" placeholder="Enter here!" width="auto"/>
       <br />
-      <label htmlFor="country">What is the country you are looking at? (See the list below):</label>
+      <label htmlFor="country">What is the country code? (See the list below):</label>
       <input id="country" type="text" placeholder="Enter here!" width="auto"/>
       <br />
       <button type="submit">Search</button>
     </form>
-    <b>Found a bug? Open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a></b>
+    <b>Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a></b>
     </>
     )}>
       <ul>
