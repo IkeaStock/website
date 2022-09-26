@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-      </Head>
       <Head />
       <body id="backgroundGradient">
         <Main />
