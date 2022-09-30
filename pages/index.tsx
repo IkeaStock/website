@@ -21,7 +21,7 @@ function HomePage() {
       <br />
       <button type="submit">Search</button>
     </form>
-    <b>Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a></b>
+    Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a>
     </>
     )}>
       <ul>
