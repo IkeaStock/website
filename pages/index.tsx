@@ -7,7 +7,6 @@ function HomePage() {
     console.log({productId: productId, country: country});
     window.location.href = `/${productId}?country=${country}`;
   }
-  const arrayOfCountries = ["at", "au", "be", "ca", "ch", "cn", "cz", "de", "dk", "es", "fi", "fr", "gb", "hk", "hr", "hu", "ie", "it", "jo", "jp", "kr", "kw", "lt", "my", "nl", "no", "pl", "pt", "qa", "ro", "ru", "sa", "se", "sg", "sk", "th", "tw", "us"]
   return (
     <Layout title="Home" headerContent={(
       <>
@@ -24,9 +23,7 @@ function HomePage() {
     Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a>
     </>
     )}>
-      <ul>
-        {arrayOfCountries.map(country => <li key={country}>{country}</li>)}
-      </ul>
+      <h3>To See a list of country codes refer to <a href="https://github.com/IKEAStock/documentation/blob/main/countrycodes.md">here</a></h3>
     </Layout>
   )
 }
