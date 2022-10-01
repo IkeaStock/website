@@ -23,7 +23,7 @@ function HomePage() {
     Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a>
     </>
     )}>
-      <h3>To view a list of country codes refer to <a href="https://github.com/IKEAStock/documentation/blob/main/countrycodes.md">here</a></h3>.
+      <h3>To view a list of country codes refer to <a href="https://github.com/IKEAStock/documentation/blob/main/countrycodes.md">here.</a></h3>
     </Layout>
   )
 }
