@@ -20,10 +20,10 @@ function HomePage() {
       <br />
       <button type="submit">Search</button>
     </form>
-    Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues">here!</a>
+    Found a bug? Please open an issue <a href="https://github.com/IKEAStock/website/issues"><u>here!</u></a>
     </>
     )}>
-      <h3>To view a list of country codes, refer to <a href="https://github.com/IKEAStock/documentation/blob/main/countrycodes.md">here.</a></h3>
+      <h3>To view a list of country codes, refer to <a href="https://github.com/IKEAStock/documentation/blob/main/countrycodes.md"><u>here.</u></a></h3>
     </Layout>
   )
 }
