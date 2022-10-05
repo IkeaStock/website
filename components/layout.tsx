@@ -22,7 +22,6 @@ function Footer() {
     const year = d.getFullYear();
     return (
     <footer>
-      <p><a href="https://github.com/IKEAStock">GitHub</a></p> 
       <p>&copy; {year} <a href="https://github.com/IKEAStock/documentation/blob/main/contributors.md">IKEA Stock</a></p> 
     </footer>
   );
