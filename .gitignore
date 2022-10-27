@@ -1,7 +1,0 @@
-node_modules/
-.next/
-cache/
-.vscode/
-.env.local
-# Sentry
-.sentryclirc
