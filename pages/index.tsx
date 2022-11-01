@@ -15,7 +15,7 @@ function HomePage() {
       <label htmlFor="product">What is the Product ID? (Found on IKEA's Website): </label>
       <input id="product" type="text" placeholder="Enter here!" width="auto"/>
       <br />
-      <label htmlFor="country">What is the country code? (See the message below):</label>
+      <label htmlFor="country">What is the Country Code? (See the message below):</label>
       <input id="country" type="text" placeholder="Enter here!" width="auto"/>
       <br />
       <button type="submit">Search</button>
