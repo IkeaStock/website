@@ -8,9 +8,9 @@ function HomePage() {
         type: "GET",
     }]
     return (
-        <Layout title="Api Docs" headerContent={(
+        <Layout title="API Documentation" headerContent={(
         <>
-        <h1>API Documentation!</h1>
+        <h1>API Documentation</h1>
         <p>
             This is a collection of API endpoints for the IKEA Availability Checker.
             <br />
