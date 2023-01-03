@@ -11,6 +11,7 @@ function HomePage() {
     <Layout title="Home" headerContent={(
       <>
       <h1>IKEA Stock</h1>
+      IKEA Stock is a tool that gives you more details on stock numbers (of your chosen item) than what IKEA gives you.
       <form onSubmit={handleSubmit}>
       <label htmlFor="product">What is the Product ID? (Found on IKEA's Website): </label>
       <input id="product" type="text" placeholder="Enter here!" width="auto"/>
